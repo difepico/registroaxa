@@ -1,0 +1,2 @@
+rootProject.name='registro axa'
+include ':app'

@@ -1,0 +1,66 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
+    app:cardCornerRadius="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnCity1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:layout_weight="5"
+            android:background="@drawable/btn_normal_selector"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="City1"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:id="@+id/btnCity2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:layout_weight="5"
+            android:background="@drawable/btn_normal_selector"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="City2"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:id="@+id/btnCity3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:layout_weight="5"
+            android:background="@drawable/btn_normal_selector"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="City3"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:id="@+id/btnCity4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="5"
+            android:background="@drawable/btn_normal_selector"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="City4"
+            android:textColor="#ffffffff" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

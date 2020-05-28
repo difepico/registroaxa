@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blanco"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/titile_registro"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/text_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/cedula" />
+
+        <EditText
+            android:id="@+id/etCedula"
+            style="@style/normal_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_cedula"
+            android:inputType="number" />
+
+        <TextView
+            style="@style/text_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/nombre" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            style="@style/normal_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nombre"
+            android:inputType="textPersonName" />
+
+        <TextView
+            style="@style/text_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/apellido" />
+
+        <EditText
+            android:id="@+id/etApellidos"
+            style="@style/normal_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_apellidos"
+            android:inputType="textPersonName" />
+
+        <TextView
+            style="@style/text_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/imagen" />
+
+        <Button
+            android:id="@+id/btnFoto"
+            style="@style/button_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_imagen"
+            android:inputType="textAutoCorrect" />
+
+        <TextView
+            style="@style/text_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/fecha_vencimiento" />
+
+        <EditText
+            android:id="@+id/edTextFecha"
+            style="@style/normal_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="@string/hint_fecha_vencimiento"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/text_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/residencia" />
+
+        <Button
+            android:id="@+id/btnMap"
+            style="@style/button_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_residencia"
+            android:inputType="textAutoCorrect" />
+
+        <TextView
+            style="@style/text_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Matricula" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="12"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edTextMatricula"
+                style="@style/normal_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:ems="10"
+                android:hint="@string/hint_matriula1"
+                android:inputType="text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:orientation="horizontal"
+                android:scrollbarThumbHorizontal="@android:color/transparent"
+                android:scrollbarThumbVertical="@android:color/transparent"></LinearLayout>
+
+            <EditText
+                android:id="@+id/edNumberMatricula"
+                style="@style/normal_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="10"
+                android:hint="@string/hint_matriula2"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/text_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/ciudad" />
+
+        <Button
+            android:id="@+id/btnCiudad"
+            style="@style/button_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_ciudad"
+            android:inputType="textAutoCorrect" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            style="@style/button_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="50dp"
+            android:text="Guardar" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

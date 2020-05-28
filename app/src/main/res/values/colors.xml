@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="blanco">#FFFFFF</color>
+    <color name="azul_titulos">#0B2A68</color>
+    <color name="azul_fondo">#D6D6E5</color>
+    <color name="azul_label">#C6CFE6</color>
+
+
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="white_20">#33FFFFFF</color>
+
+</resources>

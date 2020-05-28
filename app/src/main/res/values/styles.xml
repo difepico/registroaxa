@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="text_title">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/page_titles</item>
+        <item name="android:fontFamily">@font/pt_sans_bold</item>
+    </style>
+
+    <style name="normal_edittext">
+        <item name="android:textColor">@color/azul_titulos</item>
+        <item name="android:textColorHint">@color/black_20</item>
+        <item name="android:background">@drawable/et_normal</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+
+    <style name="map_text">
+        <item name="android:textColor">@color/azul_titulos</item>
+        <item name="android:textColorHint">@color/black_20</item>
+        <item name="android:background">@color/blanco</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+
+
+    <style name="text_secondary">
+        <item name="android:textColor">@color/azul_label</item>
+        <item name="android:textSize">@dimen/secondary_text</item>
+        <item name="android:fontFamily">@font/nunito</item>
+    </style>
+
+    <style name="button_normal">
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:textSize">@dimen/buttons</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+        <item name="android:background">@drawable/btn_normal_selector</item>
+    </style>
+</resources>

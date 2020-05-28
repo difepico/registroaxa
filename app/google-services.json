@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "891878395245",
+    "firebase_url": "https://registroaxa.firebaseio.com",
+    "project_id": "registroaxa",
+    "storage_bucket": "registroaxa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891878395245:android:182fb54fab62caf1e19e64",
+        "android_client_info": {
+          "package_name": "co.dp.registroaxa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891878395245-4khk724oo8e1aoh6ks2p7k8g34hc6qf5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.dp.registroaxa",
+            "certificate_hash": "e81b7d216d7fa2bd662ca0db2904bad3a90f197c"
+          }
+        },
+        {
+          "client_id": "891878395245-vnhb8arvq0rbs7u1audprsmefld32h00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0vRj7MEPeIL_iIIDz3yRghgNzHwcDR2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891878395245-vnhb8arvq0rbs7u1audprsmefld32h00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

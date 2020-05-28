@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivFoto"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/ic_menu_rotate" />
+
+            <TextView
+                android:id="@+id/tvNombreC"
+                style="@style/text_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="22dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/text_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="10"
+            android:text="@string/fecha_vencimiento" />
+
+        <TextView
+            android:id="@+id/tvSoatC"
+            style="@style/normal_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/text_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="10"
+            android:text="@string/residencia" />
+
+        <TextView
+            android:id="@+id/tvResidenciaC"
+            style="@style/normal_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/text_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="10"
+            android:text="@string/matricula" />
+
+        <TextView
+            android:id="@+id/tvMatriculaC"
+            style="@style/normal_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView10"
+            style="@style/text_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="10"
+            android:text="@string/ciudad" />
+
+        <TextView
+            android:id="@+id/tvCiudadC"
+            style="@style/normal_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="TextView" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="10">
+
+            <Button
+                android:id="@+id/btnComprar"
+                style="@style/button_normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/btn_comprar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
